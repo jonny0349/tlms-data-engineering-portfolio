@@ -3,9 +3,9 @@
 > **Portfolio repo** showcasing the end‑to‑end data engineering design for a Traffic Lane Management System focused on Maryland corridors. It includes source mappings, zone design (Bronze/Silver/Gold), transformation logic, sample data, and a local simulator (DuckDB + Parquet) so anyone can run the pipeline without AWS costs.
 
 ## Why this repo
-- Demonstrates **real-world architecture** you'd deploy on AWS (S3 + Glue Catalog + Athena + Lambda + Kinesis/Firehose + Lake Formation).  
+- Demonstrates **real-world architecture** deployed on AWS (S3 + Glue Catalog + Athena + Lambda + Kinesis/Firehose + Lake Formation).  
 - Runs **locally** with a lightweight simulator (DuckDB/Pandas/Parquet) using **synthetic samples** that mirror our sources (MDOT SHA AADT, CHART Incidents/Events, CHART RWIS, WZDx Work Zones).  
-- Clean, hiring‑manager friendly: clear docs, tests, CI, and diagrams.
+- Clean: clear docs, tests, CI, and diagrams.
 
 ---
 
@@ -144,18 +144,6 @@ Expected outputs are written under `data/bronze`, `data/silver`, and `data/gold`
 └─ CONTRIBUTING.md
 ```
 
----
-
-## What to highlight on your GitHub
-
-- **README** diagrams (Mermaid renders on GitHub), succinct architecture, and local run instructions.  
-- **Contracts & mappings** show rigor in upstream data handling.  
-- **CI workflow**: lint + pytest badge demonstrates engineering discipline.  
-- **Synthetic but realistic** samples to illustrate edge cases and schema governance.
-
-> When you're ready to add AWS pieces later, drop IaC (Terraform/CDK) into `infra/` and keep the local simulator for demoability.
-
----
 
 ## Credits / Context
 Built from coursework in Morgan State University’s **MS in Data Analytics** program (Data Engineering Capstone). Designed for portfolio use.
