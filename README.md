@@ -143,7 +143,12 @@ Expected outputs are written under `data/bronze`, `data/silver`, and `data/gold`
 ├─ LICENSE
 └─ CONTRIBUTING.md
 ```
+---
+This repository is being updated constantly as the content of the course INSS-661 Data Engineering is being completed. 
 
+Last update: November 8, 2025. 
+
+___
 
 ## Credits / Context
-Built from coursework in Morgan State University’s **MS in Data Analytics** program (Data Engineering Capstone). Designed for portfolio use.
+Built from coursework in Morgan State University’s **MS in Data Analytics and Visualization** program (Data Engineering Capstone). Designed for portfolio use.
