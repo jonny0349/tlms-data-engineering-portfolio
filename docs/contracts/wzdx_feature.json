@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WZDx Feature",
+  "type": "object",
+  "properties": {
+    "wzdx_id": {
+      "type": "string"
+    },
+    "road_name": {
+      "type": "string"
+    },
+    "start_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "end_ts": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "geom": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    }
+  },
+  "required": [
+    "wzdx_id",
+    "road_name",
+    "start_ts",
+    "geom"
+  ]
+}

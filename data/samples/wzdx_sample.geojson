@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WZ001",
+      "properties": {
+        "core_details": {
+          "road_names": [
+            "I-95"
+          ],
+          "start_date": "2025-10-01T10:00:00Z",
+          "end_date": "2025-10-03T22:00:00Z"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6122,
+          39.2904
+        ]
+      }
+    }
+  ]
+}

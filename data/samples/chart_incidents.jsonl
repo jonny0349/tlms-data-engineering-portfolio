@@ -1,0 +1,2 @@
+{"incidentId": "C12345", "startTime": "2025-10-01T12:34:56-04:00", "endTime": "2025-10-01T13:10:00-04:00", "route": "i-95", "direction": "north", "latitude": 39.2904, "longitude": -76.6122, "description": "Lane closure due to minor crash", "severity": "2"}
+{"incidentId": "C12346", "startTime": "2025-10-02T08:05:00-04:00", "endTime": null, "route": "us-40", "direction": "EAST", "latitude": 39.3, "longitude": -76.65, "description": "Disabled vehicle on shoulder", "severity": "1"}

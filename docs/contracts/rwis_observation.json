@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RWIS Observation",
+  "type": "object",
+  "properties": {
+    "station_id": {
+      "type": "string"
+    },
+    "obs_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "air_temp_c": {
+      "type": "number"
+    },
+    "road_temp_c": {
+      "type": "number"
+    },
+    "precip_type": {
+      "type": "string"
+    },
+    "wind_speed_kph": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "station_id",
+    "obs_ts"
+  ]
+}

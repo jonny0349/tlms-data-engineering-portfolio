@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CHART Incident",
+  "type": "object",
+  "properties": {
+    "incident_id": {
+      "type": "string"
+    },
+    "event_start_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event_end_ts": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "route": {
+      "type": "string"
+    },
+    "direction": {
+      "type": "string",
+      "enum": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    }
+  },
+  "required": [
+    "incident_id",
+    "event_start_ts",
+    "route",
+    "direction",
+    "lat",
+    "lon"
+  ]
+}
